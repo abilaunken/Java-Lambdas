@@ -7,7 +7,7 @@ public class ExecptionhandlerExample {
     public static void main(String[] args) {
         int [] numeros = {2, 4, 6, 8};
         int key = 0;
-
+ 
         fazAlgumaCoisa(numeros, key, wrapperLambdaException((v , k) -> System.out.println(v / k)));
     }
 
